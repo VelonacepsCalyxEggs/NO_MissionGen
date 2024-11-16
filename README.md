@@ -29,6 +29,11 @@ This repository utilizes the game's flexible .json structure of missions, to cre
 
 ## Usage
 Run the missionGen.py file:
+   1. Create an empty mission named "QuickGenMission" in the game.
+   2.  Run the script:
     ```
     python missionGen.py
     ```
+## P.S
+This code may break something because it is using the file system to update the mission in the NO folder.
+Anything can happen. You have been warned.
