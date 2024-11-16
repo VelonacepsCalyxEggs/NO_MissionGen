@@ -41,7 +41,7 @@ TEAM_SIZE = 4
 PLAYER_TEAM = ""
 FACTIONS = ["Primeva", "Boscali", "Neutral"]
 
-SAME_TYPE = True  # Set to True for aircraft of the same type
+SAME_TYPE = True  # Set to True for aircraft to be of the same type
 MANUAL_TYPE = "COIN"  # Set to a specific type if SAME_TYPE is True
 MANUAL_SPEED = 300  # Set to a specific speed to manually assign to all aircraft
 
