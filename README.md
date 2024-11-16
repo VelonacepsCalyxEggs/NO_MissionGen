@@ -19,7 +19,7 @@ This repository utilizes the game's flexible .json structure of missions, to cre
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/nuclear-option-mission-generator.git
+   git clone https://github.com/VelonacepsCalyxEggs/NO_MissionGen.git
    ```
 2. Navigate to project directory:
     ```sh
