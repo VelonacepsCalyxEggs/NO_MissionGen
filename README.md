@@ -29,6 +29,6 @@ This repository utilizes the game's flexible .json structure of missions, to cre
 
 ## Usage
 Run the missionGen.py file:
-    ```sh
+    ```
     python missionGen.py
     ```
