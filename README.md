@@ -38,8 +38,12 @@ Run the missionGen.py file:
 Currently the script can be configured by modifying constants in the beginning of the [missionGen.py](https://github.com/VelonacepsCalyxEggs/NO_MissionGen/blob/main/missionGen.py) file.
 ```py
 TEAM_SIZE = 4
-PLAYER_TEAM = "" # Currently does nothing.
+PLAYER_TEAM = ""
 FACTIONS = ["Primeva", "Boscali", "Neutral"]
+
+SAME_TYPE = True  # Set to True for aircraft of the same type
+MANUAL_TYPE = "COIN"  # Set to a specific type if SAME_TYPE is True
+MANUAL_SPEED = 300  # Set to a specific speed to manually assign to all aircraft
 
 # BOSCALI AIRCRAFT PLACEMENT
 X_BOSCALI = 0
