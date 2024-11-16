@@ -25,77 +25,9 @@
     },
     "aircraft": [
         {
-            "type": "Multirole1",
+            "type": "COIN",
             "faction": "Boscali",
             "UniqueName": "Boscali_1",
-            "unitCustomID": "",
-            "globalPosition": {
-                "x": 0,
-                "y": 300,
-                "z": 0
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "spawnTiming": "",
-            "playerControlled": false,
-            "playerControlledPriority": 0,
-            "loadout": {
-                "weaponSelections": [
-                    1,
-                    3,
-                    5,
-                    7
-                ]
-            },
-            "livery": 3,
-            "liveryType": 0,
-            "liveryName": "",
-            "skill": 4.42,
-            "bravery": 0.88,
-            "startingSpeed": 499.1
-        },
-        {
-            "type": "QuadVTOL1",
-            "faction": "Boscali",
-            "UniqueName": "Boscali_2",
-            "unitCustomID": "",
-            "globalPosition": {
-                "x": 25,
-                "y": 300,
-                "z": 0
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "spawnTiming": "",
-            "playerControlled": false,
-            "playerControlledPriority": 0,
-            "loadout": {
-                "weaponSelections": [
-                    0,
-                    2,
-                    4,
-                    6
-                ]
-            },
-            "livery": 3,
-            "liveryType": 0,
-            "liveryName": "",
-            "skill": 3.59,
-            "bravery": 0.3,
-            "startingSpeed": 125.6
-        },
-        {
-            "type": "EW1",
-            "faction": "Boscali",
-            "UniqueName": "Boscali_3",
             "unitCustomID": "",
             "globalPosition": {
                 "x": 50,
@@ -113,26 +45,38 @@
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
+                    0,
                     1,
                     2,
                     3,
-                    4
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 3.74,
-            "bravery": 0.75,
-            "startingSpeed": 324.4
+            "skill": 3.21,
+            "bravery": 0.77,
+            "startingSpeed": 132.2
         },
         {
-            "type": "EW1",
+            "type": "COIN",
             "faction": "Boscali",
-            "UniqueName": "Boscali_4",
+            "UniqueName": "Boscali_2",
             "unitCustomID": "",
             "globalPosition": {
-                "x": 75,
+                "x": 100,
                 "y": 300,
                 "z": 0
             },
@@ -147,26 +91,1280 @@
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
+                    0,
                     1,
                     2,
                     3,
-                    4
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 4.79,
-            "bravery": 0.03,
-            "startingSpeed": 289.3
+            "skill": 3.62,
+            "bravery": 0.74,
+            "startingSpeed": 131.7
         },
         {
-            "type": "EW1",
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_3",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 150,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 3.22,
+            "bravery": 0.31,
+            "startingSpeed": 133.3
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_4",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 200,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.32,
+            "bravery": 0.21,
+            "startingSpeed": 145.4
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_5",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 250,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.92,
+            "bravery": 0.9,
+            "startingSpeed": 130.3
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_6",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 300,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.32,
+            "bravery": 0.83,
+            "startingSpeed": 126.2
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_7",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 350,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.15,
+            "bravery": 0.99,
+            "startingSpeed": 124.2
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_8",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 400,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.78,
+            "bravery": 0.43,
+            "startingSpeed": 115.9
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_9",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 450,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.39,
+            "bravery": 0.65,
+            "startingSpeed": 138.2
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_10",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 500,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.56,
+            "bravery": 0.31,
+            "startingSpeed": 102.5
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_11",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 550,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.73,
+            "bravery": 0.02,
+            "startingSpeed": 116.9
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_12",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 600,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.9,
+            "bravery": 0.08,
+            "startingSpeed": 146.5
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_13",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 650,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.05,
+            "bravery": 0.0,
+            "startingSpeed": 116.6
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_14",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 700,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 3.98,
+            "bravery": 0.05,
+            "startingSpeed": 103.3
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_15",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 750,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 3.72,
+            "bravery": 0.02,
+            "startingSpeed": 148.2
+        },
+        {
+            "type": "COIN",
+            "faction": "Boscali",
+            "UniqueName": "Boscali_16",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 800,
+                "y": 300,
+                "z": 0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.93,
+            "bravery": 0.48,
+            "startingSpeed": 107.2
+        },
+        {
+            "type": "COIN",
             "faction": "Primeva",
             "UniqueName": "Primeva_1",
             "unitCustomID": "",
             "globalPosition": {
-                "x": 0,
+                "x": 50,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.09,
+            "bravery": 0.77,
+            "startingSpeed": 135.6
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_2",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 100,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.03,
+            "bravery": 0.42,
+            "startingSpeed": 138.5
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_3",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 150,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.3,
+            "bravery": 0.79,
+            "startingSpeed": 129.4
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_4",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 200,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.13,
+            "bravery": 0.13,
+            "startingSpeed": 149.6
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_5",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 250,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.02,
+            "bravery": 0.4,
+            "startingSpeed": 117.6
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_6",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 300,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.34,
+            "bravery": 0.3,
+            "startingSpeed": 133.9
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_7",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 350,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 3.83,
+            "bravery": 0.47,
+            "startingSpeed": 120.8
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_8",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 400,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.93,
+            "bravery": 0.69,
+            "startingSpeed": 138.0
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_9",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 450,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 3.27,
+            "bravery": 0.0,
+            "startingSpeed": 130.7
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_10",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 500,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.79,
+            "bravery": 0.76,
+            "startingSpeed": 115.2
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_11",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 550,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 2.56,
+            "bravery": 0.62,
+            "startingSpeed": 113.3
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_12",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 600,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.5,
+            "bravery": 0.56,
+            "startingSpeed": 149.6
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_13",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 650,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 4.87,
+            "bravery": 0.43,
+            "startingSpeed": 118.1
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_14",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 700,
                 "y": 300,
                 "z": 10000
             },
@@ -181,94 +1379,38 @@
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
+                    0,
                     1,
                     2,
                     3,
-                    4
-                ]
-            },
-            "livery": 3,
-            "liveryType": 0,
-            "liveryName": "",
-            "skill": 4.49,
-            "bravery": 0.03,
-            "startingSpeed": 293.6
-        },
-        {
-            "type": "Multirole1",
-            "faction": "Primeva",
-            "UniqueName": "Primeva_2",
-            "unitCustomID": "",
-            "globalPosition": {
-                "x": 25,
-                "y": 300,
-                "z": 10000
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "spawnTiming": "",
-            "playerControlled": false,
-            "playerControlledPriority": 0,
-            "loadout": {
-                "weaponSelections": [
-                    1,
-                    3,
+                    4,
                     5,
-                    7
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 3.94,
-            "bravery": 0.18,
-            "startingSpeed": 403.6
+            "skill": 2.51,
+            "bravery": 0.7,
+            "startingSpeed": 138.2
         },
         {
-            "type": "Multirole1",
+            "type": "COIN",
             "faction": "Primeva",
-            "UniqueName": "Primeva_3",
+            "UniqueName": "Primeva_15",
             "unitCustomID": "",
             "globalPosition": {
-                "x": 50,
-                "y": 300,
-                "z": 10000
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "spawnTiming": "",
-            "playerControlled": false,
-            "playerControlledPriority": 0,
-            "loadout": {
-                "weaponSelections": [
-                    1,
-                    3,
-                    5,
-                    7
-                ]
-            },
-            "livery": 3,
-            "liveryType": 0,
-            "liveryName": "",
-            "skill": 4.37,
-            "bravery": 0.96,
-            "startingSpeed": 571.7
-        },
-        {
-            "type": "AttackHelo1",
-            "faction": "Primeva",
-            "UniqueName": "Primeva_4",
-            "unitCustomID": "",
-            "globalPosition": {
-                "x": 75,
+                "x": 750,
                 "y": 300,
                 "z": 10000
             },
@@ -286,15 +1428,73 @@
                     0,
                     1,
                     2,
-                    3
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 2.85,
-            "bravery": 1.0,
-            "startingSpeed": 105.7
+            "skill": 4.82,
+            "bravery": 0.48,
+            "startingSpeed": 100.0
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "Primeva_16",
+            "unitCustomID": "",
+            "globalPosition": {
+                "x": 800,
+                "y": 300,
+                "z": 10000
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "skill": 1.31,
+            "bravery": 0.14,
+            "startingSpeed": 116.0
         }
     ],
     "vehicles": [],
@@ -304,9 +1504,9 @@
             "faction": "Boscali",
             "UniqueName": "FleetCarrier1",
             "globalPosition": {
-                "x": 50320.23407672544,
+                "x": 5229.344564859473,
                 "y": 5.0,
-                "z": -32678.34210090162
+                "z": -59771.68188550473
             },
             "rotation": {
                 "x": 0.0,
@@ -329,9 +1529,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_1",
             "globalPosition": {
-                "x": 54513.586916452565,
+                "x": 5665.123278597763,
                 "y": 8.0,
-                "z": -35401.537275976756
+                "z": -64752.655375963455
             },
             "rotation": {
                 "x": 0.0,
@@ -354,9 +1554,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_2",
             "globalPosition": {
-                "x": 53043.429251800575,
+                "x": 10210.318055318201,
                 "y": 8.0,
-                "z": -28484.9892611745
+                "z": -59335.90317176644
             },
             "rotation": {
                 "x": 0.0,
@@ -379,9 +1579,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_3",
             "globalPosition": {
-                "x": 46126.88123699832,
+                "x": 4793.565851121184,
                 "y": 8.0,
-                "z": -29955.146925826484
+                "z": -54790.70839504601
             },
             "rotation": {
                 "x": 0.0,
@@ -404,9 +1604,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_4",
             "globalPosition": {
-                "x": 47597.0389016503,
+                "x": 248.37107440074578,
                 "y": 8.0,
-                "z": -36871.69494062874
+                "z": -60207.46059924302
             },
             "rotation": {
                 "x": 0.0,
@@ -429,9 +1629,9 @@
             "faction": "Boscali",
             "UniqueName": "Destroyer1",
             "globalPosition": {
-                "x": 60101.710084063496,
+                "x": 12889.78899604925,
                 "y": 7.5,
-                "z": -30599.225192724025
+                "z": -66199.55798237013
             },
             "rotation": {
                 "x": 0.0,
@@ -454,9 +1654,9 @@
             "faction": "Primeva",
             "UniqueName": "FleetCarrier2",
             "globalPosition": {
-                "x": 45962.66658713868,
+                "x": -35267.1151375484,
                 "y": 5.0,
-                "z": 38567.256581192356
+                "z": -48541.01966249684
             },
             "rotation": {
                 "x": 0.0,
@@ -479,9 +1679,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_1",
             "globalPosition": {
-                "x": 49792.88880273357,
+                "x": -38206.04139901076,
                 "y": 8.0,
-                "z": 41781.19462962505
+                "z": -52586.10463437157
             },
             "rotation": {
                 "x": 0.0,
@@ -504,9 +1704,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_2",
             "globalPosition": {
-                "x": 42748.72853870598,
+                "x": -31222.03016567366,
                 "y": 8.0,
-                "z": 42397.47879678725
+                "z": -51479.9459239592
             },
             "rotation": {
                 "x": 0.0,
@@ -529,9 +1729,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_3",
             "globalPosition": {
-                "x": 42132.44437154379,
+                "x": -32328.18887608603,
                 "y": 8.0,
-                "z": 35353.31853275966
+                "z": -44495.9346906221
             },
             "rotation": {
                 "x": 0.0,
@@ -554,9 +1754,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_4",
             "globalPosition": {
-                "x": 49176.60463557138,
+                "x": -39312.20010942313,
                 "y": 8.0,
-                "z": 34737.034365597465
+                "z": -45602.09340103447
             },
             "rotation": {
                 "x": 0.0,
@@ -579,9 +1779,9 @@
             "faction": "Primeva",
             "UniqueName": "Destroyer2",
             "globalPosition": {
-                "x": 46834.22401461526,
+                "x": -33702.77048714609,
                 "y": 7.5,
-                "z": 48529.20356210981
+                "z": -58417.90306844821
             },
             "rotation": {
                 "x": 0.0,
@@ -650,7 +1850,7 @@
     "airbases": [
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Neutral",
             "UniqueName": "Dustbowl Highway Strip",
             "DisplayName": "Dustbowl Highway Strip",
             "Disabled": false,
@@ -677,7 +1877,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Neutral",
+            "faction": "Boscali",
             "UniqueName": "Sandrift Airbase",
             "DisplayName": "Sandrift Airbase",
             "Disabled": false,
@@ -704,7 +1904,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Primeva",
+            "faction": "Boscali",
             "UniqueName": "Agrapol Airbase",
             "DisplayName": "Agrapol Airbase",
             "Disabled": false,
@@ -758,7 +1958,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Neutral",
             "UniqueName": "Vigil Cay Naval Airbase",
             "DisplayName": "Vigil Cay Naval Airbase",
             "Disabled": false,
@@ -812,7 +2012,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Primeva",
             "UniqueName": "Maris Airport",
             "DisplayName": "Maris Airport",
             "Disabled": false,
@@ -839,7 +2039,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Neutral",
             "UniqueName": "K92 Highway Strip",
             "DisplayName": "K92 Highway Strip",
             "Disabled": false,
@@ -932,6 +2132,114 @@
                             "y": 0.0,
                             "z": 0.0
                         }
+                    },
+                    {
+                        "StringValue": "Boscali_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_7",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_8",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_9",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_10",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_11",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_12",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_13",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_14",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_15",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Boscali_16",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
                     }
                 ],
                 "Outcomes": [
@@ -984,6 +2292,114 @@
                     },
                     {
                         "StringValue": "Primeva_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_7",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_8",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_9",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_10",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_11",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_12",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_13",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_14",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_15",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Primeva_16",
                         "FloatValue": 0.0,
                         "VectorValue": {
                             "x": 0.0,

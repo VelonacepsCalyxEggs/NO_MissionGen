@@ -4,19 +4,29 @@ import random
 import math
 import os
 
-TEAM_SIZE = 4
-PLAYER_TEAM = ""
+# CONFIG
+TEAM_SIZE = 16
 FACTIONS = ["Primeva", "Boscali", "Neutral"]
+SAME_TYPE = True  # Set to True for aircraft of the same type
+MANUAL_TYPE = "COIN"  # Set to a specific type if SAME_TYPE is True
+MANUAL_SPEED = None  # Set to a specific speed to manually assign to all aircraft
+
+# Doesn't work like I wanted to... so best set to False, although it can be fun.
+ENABLE_BALANCING = False  # Set to False to disable balancing
 
 # BOSCALI AIRCRAFT PLACEMENT
 X_BOSCALI = 0
-Y_BOSCALI = 300 # Height above sea level.
+Y_BOSCALI = 300  # Height above sea level
 Z_BOSCALI = 0
 
 # PRIMEVA AIRCRAFT PLACEMENT
 X_PRIMEVA = 0
 Y_PRIMEVA = 300
 Z_PRIMEVA = 10000
+
+# Group spacing offsets
+GROUP_OFFSET_X = 500
+GROUP_OFFSET_Z = 500
 class Aircraft:
     def __init__(self, type, faction, unique_name, x, y, z, rotation_y, livery, weapon_selections, skill_range, bravery_range, speed_range):
         self.type = type
@@ -126,26 +136,54 @@ def add_fleets(ship_templates, mission):
         mission["ships"].append(destroyer)
         print(destroyer["UniqueName"], "at", destroyer["globalPosition"])
 
-def place_aircraft(x_pos, y_pos, z_pos, rot_y, team_faction, aircraft_templates):
+def balance_teams_by_role(aircraft_templates, team_size):
+    roles = ["interceptor", "multirole", "ground-attack", "bomber", "electronic-warfare", "transport"]
+    team1 = []
+    team2 = []
+
+    for role in roles:
+        role_aircraft = [atype for atype, details in aircraft_templates.items() if details["role"] == role]
+        if role_aircraft:
+            random.shuffle(role_aircraft)
+            for i in range(min(team_size // len(roles), len(role_aircraft))):
+                if i % 2 == 0:
+                    team1.append(role_aircraft[i % len(role_aircraft)])
+                else:
+                    team2.append(role_aircraft[i % len(role_aircraft)])
+
+    return team1, team2
+
+def place_aircraft(x_pos, y_pos, z_pos, rot_y, team_faction, aircraft_templates, aircraft_types, formation_positions):
     # Add aircraft
     aircraft_list = []
+    group_count = 0
     for i in range(1, TEAM_SIZE + 1):
-        type_choice = random.choice(list(aircraft_templates.keys()))
+        if ENABLE_BALANCING:
+            type_choice = aircraft_types[i % len(aircraft_types)]
+        else:
+            if SAME_TYPE:
+                type_choice = MANUAL_TYPE
+            else:
+                type_choice = random.choice(list(aircraft_templates.keys()))
         template = aircraft_templates[type_choice]
+        aircraft_speed = MANUAL_SPEED if MANUAL_SPEED is not None else random.uniform(*template["speed_range"])
+        position = formation_positions[template["role"]]
         aircraft = Aircraft(type=type_choice, 
                             faction=team_faction, 
                             unique_name=f"{team_faction}_" + str(i), 
-                            x = x_pos, 
+                            x = x_pos + (group_count * GROUP_OFFSET_X if ENABLE_BALANCING else i * 50),
                             y = y_pos,
-                            z= z_pos, 
-                            rotation_y=rot_y, 
-                            livery=3, 
-                            weapon_selections=template["weapon_selections"],
-                            skill_range=template["skill_range"], 
-                            bravery_range=template["bravery_range"], 
-                            speed_range=template["speed_range"])
+                            z = z_pos + (group_count * GROUP_OFFSET_Z if ENABLE_BALANCING else 0),
+                            rotation_y = rot_y, 
+                            livery = 3, 
+                            weapon_selections = template["weapon_selections"],
+                            skill_range = (1.0, 5.0),  # Default skill range
+                            bravery_range = (0.0, 1.0),  # Default bravery range
+                            speed_range = (aircraft_speed, aircraft_speed))
         aircraft_list.append(aircraft.to_dict())
-        x_pos += 25
+        if ENABLE_BALANCING and i % len(formation_positions) == 0:
+            group_count += 1
+
     return aircraft_list
 
 def edit_objectives(mission, objective_templates):
@@ -194,14 +232,23 @@ def main():
     
     # It is a pain getting all the avaivable weapon selections... there should be an easier way...
     aircraft_templates = {
-        "COIN": {"weapon_selections": [1, 2, 6, 4], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (100.0, 150.0)},
-        "trainer": {"weapon_selections": [1, 2, 3, 4], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (250.0, 400.0)},
-        "Multirole1": {"weapon_selections": [1, 3, 5, 7], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (400.0, 600.0)},
-        "Fighter1": {"weapon_selections": [2, 4, 6, 8], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (400.0, 600.0)},
-        "AttackHelo1": {"weapon_selections": [0, 1, 2, 3], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (100.0, 200.0)},
-        "Darkreach": {"weapon_selections": [3, 4, 5, 6], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (200.0, 320.0)},
-        "EW1": {"weapon_selections": [1, 2, 3, 4], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (250.0, 350.0)},
-        "QuadVTOL1": {"weapon_selections": [0, 2, 4, 6], "skill_range": (1.0, 5.0), "bravery_range": (0.0, 1.0), "speed_range": (100.0, 150.0)}
+        "COIN": {"role": "ground-attack", "weapon_selections": list(range(0, 16)), "speed_range": (100.0, 150.0)},
+        "trainer": {"role": "multirole", "weapon_selections": list(range(0, 16)), "speed_range": (250.0, 400.0)},
+        "Multirole1": {"role": "multirole", "weapon_selections": list(range(0, 16)), "speed_range": (400.0, 600.0)},
+        "Fighter1": {"role": "interceptor", "weapon_selections": list(range(0, 16)), "speed_range": (400.0, 600.0)},
+        "AttackHelo1": {"role": "ground-attack", "weapon_selections": list(range(0, 16)), "speed_range": (100.0, 200.0)},
+        "Darkreach": {"role": "bomber", "weapon_selections": list(range(0, 16)), "speed_range": (200.0, 320.0)},
+        "EW1": {"role": "electronic-warfare", "weapon_selections": list(range(0, 16)), "speed_range": (250.0, 350.0)},
+        "QuadVTOL1": {"role": "transport", "weapon_selections": list(range(0, 16)), "speed_range": (100.0, 150.0)}
+    }
+
+    formation_positions = {
+        "interceptor": {"x_offset": 50, "z_offset": 90},
+        "multirole": {"x_offset": 90, "z_offset": 90},
+        "ground-attack": {"x_offset": 80, "z_offset": 20},
+        "bomber": {"x_offset": 180, "z_offset": 100},
+        "electronic-warfare": {"x_offset": 150, "z_offset": 150},
+        "transport": {"x_offset": 200, "z_offset": 150}
     }
 
 
@@ -215,8 +262,19 @@ def main():
     add_fleets(ship_templates, mission)
     rotation_y_boscali = 0.0
     rotation_y_primeva = 1.0
-    boscali_aircraft = place_aircraft(X_BOSCALI, Y_BOSCALI, Z_BOSCALI, rotation_y_boscali, FACTIONS[1], aircraft_templates)
-    primeva_aircraft = place_aircraft(X_PRIMEVA, Y_PRIMEVA, Z_PRIMEVA, rotation_y_primeva, FACTIONS[0], aircraft_templates)
+
+    if ENABLE_BALANCING:
+        # Balance teams by roles
+        team1_types, team2_types = balance_teams_by_role(aircraft_templates, TEAM_SIZE)
+    else:
+        # Randomize aircraft types if balancing is disabled
+        all_aircrafts = list(aircraft_templates.keys())
+        random.shuffle(all_aircrafts)
+        team1_types = [all_aircrafts[i % len(all_aircrafts)] for i in range(1, TEAM_SIZE + 1)]
+        team2_types = [all_aircrafts[i % len(all_aircrafts)] for i in range(1, TEAM_SIZE + 1)]
+
+    boscali_aircraft = place_aircraft(X_BOSCALI, Y_BOSCALI, Z_BOSCALI, rotation_y_boscali, FACTIONS[1], aircraft_templates, team1_types, formation_positions)
+    primeva_aircraft = place_aircraft(X_PRIMEVA, Y_PRIMEVA, Z_PRIMEVA, rotation_y_primeva, FACTIONS[0], aircraft_templates, team2_types, formation_positions)
     mission["aircraft"].extend(boscali_aircraft)
     mission["aircraft"].extend(primeva_aircraft)
     
