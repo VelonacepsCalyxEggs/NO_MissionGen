@@ -8,6 +8,10 @@ TEAM_SIZE = 4
 PLAYER_TEAM = ""
 FACTIONS = ["Primeva", "Boscali", "Neutral"]
 
+SAME_TYPE = True  # Set to True for aircraft of the same type
+MANUAL_TYPE = "COIN"  # Set to a specific type if SAME_TYPE is True
+MANUAL_SPEED = 300  # Set to a specific speed to manually assign to all aircraft
+
 # BOSCALI AIRCRAFT PLACEMENT
 X_BOSCALI = 0
 Y_BOSCALI = 300 # Height above sea level.
@@ -130,20 +134,25 @@ def place_aircraft(x_pos, y_pos, z_pos, rot_y, team_faction, aircraft_templates)
     # Add aircraft
     aircraft_list = []
     for i in range(1, TEAM_SIZE + 1):
-        type_choice = random.choice(list(aircraft_templates.keys()))
-        template = aircraft_templates[type_choice]
+
+        if SAME_TYPE:
+            type_choice = MANUAL_TYPE
+            template = aircraft_templates[MANUAL_TYPE]
+        else:
+            type_choice = random.choice(list(aircraft_templates.keys()))
+            template = aircraft_templates[type_choice]
         aircraft = Aircraft(type=type_choice, 
                             faction=team_faction, 
                             unique_name=f"{team_faction}_" + str(i), 
                             x = x_pos, 
                             y = y_pos,
-                            z= z_pos, 
+                            z = z_pos, 
                             rotation_y=rot_y, 
                             livery=3, 
                             weapon_selections=template["weapon_selections"],
                             skill_range=template["skill_range"], 
                             bravery_range=template["bravery_range"], 
-                            speed_range=template["speed_range"])
+                            speed_range=template["speed_range"] if MANUAL_SPEED is None else (MANUAL_SPEED, MANUAL_SPEED))
         aircraft_list.append(aircraft.to_dict())
         x_pos += 25
     return aircraft_list

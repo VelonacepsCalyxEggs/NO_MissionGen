@@ -25,7 +25,7 @@
     },
     "aircraft": [
         {
-            "type": "Multirole1",
+            "type": "COIN",
             "faction": "Boscali",
             "UniqueName": "Boscali_1",
             "unitCustomID": "",
@@ -46,20 +46,20 @@
             "loadout": {
                 "weaponSelections": [
                     1,
-                    3,
-                    5,
-                    7
+                    2,
+                    6,
+                    4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 4.42,
-            "bravery": 0.88,
-            "startingSpeed": 499.1
+            "skill": 2.78,
+            "bravery": 0.18,
+            "startingSpeed": 300.0
         },
         {
-            "type": "QuadVTOL1",
+            "type": "COIN",
             "faction": "Boscali",
             "UniqueName": "Boscali_2",
             "unitCustomID": "",
@@ -79,21 +79,21 @@
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
-                    0,
+                    1,
                     2,
-                    4,
-                    6
+                    6,
+                    4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 3.59,
-            "bravery": 0.3,
-            "startingSpeed": 125.6
+            "skill": 4.12,
+            "bravery": 0.03,
+            "startingSpeed": 300.0
         },
         {
-            "type": "EW1",
+            "type": "COIN",
             "faction": "Boscali",
             "UniqueName": "Boscali_3",
             "unitCustomID": "",
@@ -115,19 +115,19 @@
                 "weaponSelections": [
                     1,
                     2,
-                    3,
+                    6,
                     4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 3.74,
-            "bravery": 0.75,
-            "startingSpeed": 324.4
+            "skill": 1.79,
+            "bravery": 0.56,
+            "startingSpeed": 300.0
         },
         {
-            "type": "EW1",
+            "type": "COIN",
             "faction": "Boscali",
             "UniqueName": "Boscali_4",
             "unitCustomID": "",
@@ -149,19 +149,19 @@
                 "weaponSelections": [
                     1,
                     2,
-                    3,
+                    6,
                     4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 4.79,
-            "bravery": 0.03,
-            "startingSpeed": 289.3
+            "skill": 2.98,
+            "bravery": 0.7,
+            "startingSpeed": 300.0
         },
         {
-            "type": "EW1",
+            "type": "COIN",
             "faction": "Primeva",
             "UniqueName": "Primeva_1",
             "unitCustomID": "",
@@ -177,25 +177,25 @@
                 "w": 0.0
             },
             "spawnTiming": "",
-            "playerControlled": true,
+            "playerControlled": false,
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
                     1,
                     2,
-                    3,
+                    6,
                     4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 4.49,
-            "bravery": 0.03,
-            "startingSpeed": 293.6
+            "skill": 4.7,
+            "bravery": 0.65,
+            "startingSpeed": 300.0
         },
         {
-            "type": "Multirole1",
+            "type": "COIN",
             "faction": "Primeva",
             "UniqueName": "Primeva_2",
             "unitCustomID": "",
@@ -216,20 +216,20 @@
             "loadout": {
                 "weaponSelections": [
                     1,
-                    3,
-                    5,
-                    7
+                    2,
+                    6,
+                    4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 3.94,
-            "bravery": 0.18,
-            "startingSpeed": 403.6
+            "skill": 3.07,
+            "bravery": 0.81,
+            "startingSpeed": 300.0
         },
         {
-            "type": "Multirole1",
+            "type": "COIN",
             "faction": "Primeva",
             "UniqueName": "Primeva_3",
             "unitCustomID": "",
@@ -245,25 +245,25 @@
                 "w": 0.0
             },
             "spawnTiming": "",
-            "playerControlled": false,
+            "playerControlled": true,
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
                     1,
-                    3,
-                    5,
-                    7
+                    2,
+                    6,
+                    4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 4.37,
-            "bravery": 0.96,
-            "startingSpeed": 571.7
+            "skill": 2.96,
+            "bravery": 0.79,
+            "startingSpeed": 300.0
         },
         {
-            "type": "AttackHelo1",
+            "type": "COIN",
             "faction": "Primeva",
             "UniqueName": "Primeva_4",
             "unitCustomID": "",
@@ -283,18 +283,18 @@
             "playerControlledPriority": 0,
             "loadout": {
                 "weaponSelections": [
-                    0,
                     1,
                     2,
-                    3
+                    6,
+                    4
                 ]
             },
             "livery": 3,
             "liveryType": 0,
             "liveryName": "",
-            "skill": 2.85,
-            "bravery": 1.0,
-            "startingSpeed": 105.7
+            "skill": 3.01,
+            "bravery": 0.15,
+            "startingSpeed": 300.0
         }
     ],
     "vehicles": [],
@@ -304,9 +304,9 @@
             "faction": "Boscali",
             "UniqueName": "FleetCarrier1",
             "globalPosition": {
-                "x": 50320.23407672544,
+                "x": -59771.68188550473,
                 "y": 5.0,
-                "z": -32678.34210090162
+                "z": -5229.344564859477
             },
             "rotation": {
                 "x": 0.0,
@@ -329,9 +329,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_1",
             "globalPosition": {
-                "x": 54513.586916452565,
+                "x": -64752.655375963455,
                 "y": 8.0,
-                "z": -35401.537275976756
+                "z": -5665.123278597766
             },
             "rotation": {
                 "x": 0.0,
@@ -354,9 +354,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_2",
             "globalPosition": {
-                "x": 53043.429251800575,
+                "x": -59335.90317176644,
                 "y": 8.0,
-                "z": -28484.9892611745
+                "z": -10210.318055318205
             },
             "rotation": {
                 "x": 0.0,
@@ -379,9 +379,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_3",
             "globalPosition": {
-                "x": 46126.88123699832,
+                "x": -54790.70839504601,
                 "y": 8.0,
-                "z": -29955.146925826484
+                "z": -4793.565851121188
             },
             "rotation": {
                 "x": 0.0,
@@ -404,9 +404,9 @@
             "faction": "Boscali",
             "UniqueName": "Corvette1_4",
             "globalPosition": {
-                "x": 47597.0389016503,
+                "x": -60207.46059924302,
                 "y": 8.0,
-                "z": -36871.69494062874
+                "z": -248.37107440074942
             },
             "rotation": {
                 "x": 0.0,
@@ -429,9 +429,9 @@
             "faction": "Boscali",
             "UniqueName": "Destroyer1",
             "globalPosition": {
-                "x": 60101.710084063496,
+                "x": -66199.55798237013,
                 "y": 7.5,
-                "z": -30599.225192724025
+                "z": -12889.788996049256
             },
             "rotation": {
                 "x": 0.0,
@@ -454,9 +454,9 @@
             "faction": "Primeva",
             "UniqueName": "FleetCarrier2",
             "globalPosition": {
-                "x": 45962.66658713868,
+                "x": 55230.29120714642,
                 "y": 5.0,
-                "z": 38567.256581192356
+                "z": 23443.867709356426
             },
             "rotation": {
                 "x": 0.0,
@@ -479,9 +479,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_1",
             "globalPosition": {
-                "x": 49792.88880273357,
+                "x": 59832.81547440863,
                 "y": 8.0,
-                "z": 41781.19462962505
+                "z": 25397.523351802796
             },
             "rotation": {
                 "x": 0.0,
@@ -504,9 +504,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_2",
             "globalPosition": {
-                "x": 42748.72853870598,
+                "x": 53276.63556470005,
                 "y": 8.0,
-                "z": 42397.47879678725
+                "z": 28046.391976618626
             },
             "rotation": {
                 "x": 0.0,
@@ -529,9 +529,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_3",
             "globalPosition": {
-                "x": 42132.44437154379,
+                "x": 50627.76693988422,
                 "y": 8.0,
-                "z": 35353.31853275966
+                "z": 21490.21206691006
             },
             "rotation": {
                 "x": 0.0,
@@ -554,9 +554,9 @@
             "faction": "Primeva",
             "UniqueName": "Corvette2_4",
             "globalPosition": {
-                "x": 49176.60463557138,
+                "x": 57183.946849592794,
                 "y": 8.0,
-                "z": 34737.034365597465
+                "z": 18841.34344209422
             },
             "rotation": {
                 "x": 0.0,
@@ -579,9 +579,9 @@
             "faction": "Primeva",
             "UniqueName": "Destroyer2",
             "globalPosition": {
-                "x": 46834.22401461526,
+                "x": 58976.35714130554,
                 "y": 7.5,
-                "z": 48529.20356210981
+                "z": 32715.7062550243
             },
             "rotation": {
                 "x": 0.0,
@@ -650,7 +650,7 @@
     "airbases": [
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Neutral",
             "UniqueName": "Dustbowl Highway Strip",
             "DisplayName": "Dustbowl Highway Strip",
             "Disabled": false,
@@ -677,7 +677,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Neutral",
+            "faction": "Boscali",
             "UniqueName": "Sandrift Airbase",
             "DisplayName": "Sandrift Airbase",
             "Disabled": false,
@@ -704,7 +704,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Primeva",
+            "faction": "Neutral",
             "UniqueName": "Agrapol Airbase",
             "DisplayName": "Agrapol Airbase",
             "Disabled": false,
@@ -731,7 +731,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Neutral",
+            "faction": "Primeva",
             "UniqueName": "South Boscali General Aviation",
             "DisplayName": "South Boscali General Aviation",
             "Disabled": false,
@@ -758,7 +758,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Primeva",
             "UniqueName": "Vigil Cay Naval Airbase",
             "DisplayName": "Vigil Cay Naval Airbase",
             "Disabled": false,
@@ -785,7 +785,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Neutral",
+            "faction": "Boscali",
             "UniqueName": "North Boscali Airbase",
             "DisplayName": "North Boscali Airbase",
             "Disabled": false,
@@ -812,7 +812,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Neutral",
             "UniqueName": "Maris Airport",
             "DisplayName": "Maris Airport",
             "Disabled": false,
@@ -839,7 +839,7 @@
         },
         {
             "IsOverride": true,
-            "faction": "Boscali",
+            "faction": "Neutral",
             "UniqueName": "K92 Highway Strip",
             "DisplayName": "K92 Highway Strip",
             "Disabled": false,
