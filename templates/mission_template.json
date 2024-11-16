@@ -1,0 +1,296 @@
+{
+    "JsonVersion": 2,
+    "WorkshopId": 0,
+    "missionSettings": {
+        "description": "",
+        "Tags": [],
+        "playerMode": 0,
+        "allowRespawn": false,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "missionRoads": {
+            "roads": []
+        }
+    },
+    "environment": {
+        "timeOfDay": 10.0,
+        "weatherIntensity": 0.0,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0
+    },
+    "aircraft": [],
+    "vehicles": [],
+    "ships": [],
+    "buildings": [],
+    "FACTIONS": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.2,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.2,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            }
+        }
+    ],
+    "airbases": [
+        {
+            "IsOverride": true,
+            "faction": "Primeva",
+            "UniqueName": "Dustbowl Highway Strip",
+            "DisplayName": "Dustbowl Highway Strip",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": 13423.4755859375,
+                "y": 149.33798217773438,
+                "z": -7732.4921875
+            },
+            "SelectionPosition": {
+                "x": 13351.4404296875,
+                "y": 145.87200927734376,
+                "z": -7709.0498046875
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Primeva",
+            "UniqueName": "Sandrift Airbase",
+            "DisplayName": "Sandrift Airbase",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": 27810.689453125,
+                "y": 138.23345947265626,
+                "z": -19056.154296875
+            },
+            "SelectionPosition": {
+                "x": 27574.478515625,
+                "y": 135.43246459960938,
+                "z": -19351.603515625
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Primeva",
+            "UniqueName": "Agrapol Airbase",
+            "DisplayName": "Agrapol Airbase",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": -989.0,
+                "y": 155.29998779296876,
+                "z": -26894.0
+            },
+            "SelectionPosition": {
+                "x": -905.9000244140625,
+                "y": 136.739990234375,
+                "z": -27339.900390625
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Boscali",
+            "UniqueName": "South Boscali General Aviation",
+            "DisplayName": "South Boscali General Aviation",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": -10054.90234375,
+                "y": 142.72796630859376,
+                "z": -6505.7998046875
+            },
+            "SelectionPosition": {
+                "x": -10265.01953125,
+                "y": 136.42999267578126,
+                "z": -6532.08984375
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Primeva",
+            "UniqueName": "Vigil Cay Naval Airbase",
+            "DisplayName": "Vigil Cay Naval Airbase",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": -33990.83203125,
+                "y": 19.320785522460939,
+                "z": -12086.583984375
+            },
+            "SelectionPosition": {
+                "x": -34213.56640625,
+                "y": 19.985000610351564,
+                "z": -12459.103515625
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Boscali",
+            "UniqueName": "North Boscali Airbase",
+            "DisplayName": "North Boscali Airbase",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": -18627.193359375,
+                "y": 140.0,
+                "z": 32225.587890625
+            },
+            "SelectionPosition": {
+                "x": -18550.0,
+                "y": 137.0570068359375,
+                "z": 32192.69921875
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Boscali",
+            "UniqueName": "Maris Airport",
+            "DisplayName": "Maris Airport",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": 12919.0,
+                "y": 147.31541442871095,
+                "z": 19549.0
+            },
+            "SelectionPosition": {
+                "x": 12802.599609375,
+                "y": 135.15541076660157,
+                "z": 19235.30078125
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        },
+        {
+            "IsOverride": true,
+            "faction": "Boscali",
+            "UniqueName": "K92 Highway Strip",
+            "DisplayName": "K92 Highway Strip",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": 18983.61328125,
+                "y": 134.23419189453126,
+                "z": 12573.5302734375
+            },
+            "SelectionPosition": {
+                "x": 18943.88671875,
+                "y": 132.81500244140626,
+                "z": 12574.9580078125
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        }
+    ],
+    "objectives": {
+    }
+}

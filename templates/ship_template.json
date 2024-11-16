@@ -1,0 +1,77 @@
+[
+    {
+        "type": "FleetCarrier1",
+        "faction": "",
+        "UniqueName": "FleetCarrier1",
+        "globalPosition": {
+            "x": 0.0,
+            "y": 5.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+        },
+        "CaptureStrength": {
+            "IsOverride": false,
+            "Value": 0.0
+        },
+        "unitCustomID": "",
+        "spawnTiming": "",
+        "holdPosition": false,
+        "skill": 0.7,
+        "waypoints": []
+    },
+    {
+        "type": "Corvette1",
+        "faction": "",
+        "UniqueName": "Corvette1",
+        "globalPosition": {
+            "x": 0.0,
+            "y": 8.0,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+        },
+        "CaptureStrength": {
+            "IsOverride": false,
+            "Value": 0.0
+        },
+        "unitCustomID": "",
+        "spawnTiming": "",
+        "holdPosition": false,
+        "skill": 0.7,
+        "waypoints": []
+    },
+    {
+        "type": "Destroyer1",
+        "faction": "",
+        "UniqueName": "Destroyer1",
+        "globalPosition": {
+            "x": 0.5068359375,
+            "y": 7.5,
+            "z": 0.0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+        },
+        "CaptureStrength": {
+            "IsOverride": false,
+            "Value": 0.0
+        },
+        "unitCustomID": "",
+        "spawnTiming": "",
+        "holdPosition": false,
+        "skill": 0.7,
+        "waypoints": []
+    }
+]

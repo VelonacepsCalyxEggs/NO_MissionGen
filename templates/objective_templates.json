@@ -1,0 +1,147 @@
+[
+    {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "StartPrimeva",
+                    "StartBoscali"
+                ]
+            },
+            {
+                "UniqueName": "DestroyBoscali",
+                "Faction": "Primeva",
+                "DisplayName": "DestroyBoscali",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "PrimevaWin"
+                ]
+            },
+            {
+                "UniqueName": "DestroyPrimeva",
+                "Faction": "Boscali",
+                "DisplayName": "DestroyPrimeva",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "BoscaliWin"
+                ]
+            }
+        ],
+        "Outcomes": [
+            {
+                "UniqueName": "StartPrimeva",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyBoscali",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartBoscali",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyPrimeva",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "PrimevaWin",
+                "Type": 8,
+                "TypeName": "EndGame",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "BoscaliWin",
+                "Type": 8,
+                "TypeName": "EndGame",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
