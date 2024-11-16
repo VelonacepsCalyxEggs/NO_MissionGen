@@ -3,7 +3,6 @@ import copy
 import random
 import math
 import os
-import shutil
 
 TEAM_SIZE = 4
 PLAYER_TEAM = ""
@@ -218,7 +217,6 @@ def main():
     rotation_y_primeva = 1.0
     boscali_aircraft = place_aircraft(X_BOSCALI, Y_BOSCALI, Z_BOSCALI, rotation_y_boscali, FACTIONS[1], aircraft_templates)
     primeva_aircraft = place_aircraft(X_PRIMEVA, Y_PRIMEVA, Z_PRIMEVA, rotation_y_primeva, FACTIONS[0], aircraft_templates)
-    print(boscali_aircraft)
     mission["aircraft"].extend(boscali_aircraft)
     mission["aircraft"].extend(primeva_aircraft)
     
