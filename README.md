@@ -34,6 +34,23 @@ Run the missionGen.py file:
     ```
     python missionGen.py
     ```
-## P.S
+## Configuration
+Currently the script can be configured by modifying constants in the beginning of the [missionGen.py](https://github.com/VelonacepsCalyxEggs/NO_MissionGen/blob/main/missionGen.py) file.
+```py
+TEAM_SIZE = 4
+PLAYER_TEAM = "" # Currently does nothing.
+FACTIONS = ["Primeva", "Boscali", "Neutral"]
+
+# BOSCALI AIRCRAFT PLACEMENT
+X_BOSCALI = 0
+Y_BOSCALI = 300 # Height above sea level.
+Z_BOSCALI = 0
+
+# PRIMEVA AIRCRAFT PLACEMENT
+X_PRIMEVA = 0
+Y_PRIMEVA = 300
+Z_PRIMEVA = 10000
+```
+### P.S.
 This code may break something because it is using the file system to update the mission in the NO folder.
 Anything can happen. You have been warned.
